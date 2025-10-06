@@ -1,4 +1,24 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Websites & Desktop Apps for Small Businesses",
+  description:
+    "Custom websites and desktop applications that help small businesses reach more customers, automate operations, and increase revenue. Get a free quote today.",
+  openGraph: {
+    title: "Websites & Desktop Apps for Small Businesses",
+    description:
+      "Custom websites and desktop applications that help small businesses reach more customers, automate operations, and increase revenue.",
+    images: ["/og-image.svg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Websites & Desktop Apps for Small Businesses",
+    description:
+      "Custom websites and desktop applications that help small businesses reach more customers, automate operations, and increase revenue.",
+    images: ["/og-image.svg"],
+  },
+};
 
 export default function Home() {
   return (
@@ -8,7 +28,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="text-2xl font-bold text-gray-800">
-              Your Name
+              Ucok Isa Lubis
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#services" className="text-gray-600 hover:text-blue-600 transition-colors">Services</a>
@@ -329,7 +349,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Send Me a Message</h3>
               <form className="space-y-6">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Your Name</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">Name</label>
                   <input
                     type="text"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -421,7 +441,7 @@ export default function Home() {
       <footer className="bg-gray-800 text-white py-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="text-2xl font-bold mb-4">Your Name</div>
+            <div className="text-2xl font-bold mb-4">Ucok Isa Lubis</div>
             <p className="text-gray-400 mb-6">
               Helping businesses grow with custom websites and desktop applications.
             </p>

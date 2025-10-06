@@ -1,4 +1,24 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Developer Portfolio & Technical Services",
+  description:
+    "Full-stack developer available for collaboration. Experience building scalable web applications, APIs, and cross-platform desktop apps.",
+  openGraph: {
+    title: "Developer Portfolio & Technical Services",
+    description:
+      "Full-stack developer available for collaboration. Experience building scalable web applications, APIs, and cross-platform desktop apps.",
+    images: ["/og-image-dev.svg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Developer Portfolio & Technical Services",
+    description:
+      "Full-stack developer available for collaboration. Experience building scalable web applications, APIs, and cross-platform desktop apps.",
+    images: ["/og-image-dev.svg"],
+  },
+};
 
 export default function DeveloperMode() {
   return (
@@ -516,7 +536,7 @@ export default function DeveloperMode() {
               <h3 className="text-2xl font-bold mb-6">Quick Message</h3>
               <form className="space-y-6">
                 <div>
-                  <label className="block text-sm font-medium mb-2">Your Name</label>
+                  <label className="block text-sm font-medium mb-2">Name</label>
                   <input
                     type="text"
                     className="w-full px-4 py-3 bg-gray-900 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-white"

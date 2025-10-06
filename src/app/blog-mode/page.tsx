@@ -1,4 +1,24 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "DevBlog — Tutorials & Case Studies",
+  description:
+    "Practical tutorials, case studies, and developer insights about building web and desktop applications.",
+  openGraph: {
+    title: "DevBlog — Tutorials & Case Studies",
+    description:
+      "Practical tutorials, case studies, and developer insights about building web and desktop applications.",
+    images: ["/og-image-blog.svg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "DevBlog — Tutorials & Case Studies",
+    description:
+      "Practical tutorials, case studies, and developer insights about building web and desktop applications.",
+    images: ["/og-image-blog.svg"],
+  },
+};
 
 export default function BlogMode() {
   return (

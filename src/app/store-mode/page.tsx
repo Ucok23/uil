@@ -1,4 +1,24 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Digital Store — Ready-to-Use Apps & Templates",
+  description:
+    "Buy ready-to-deploy web applications, desktop software, and templates. Save time with professionally built solutions and premium support.",
+  openGraph: {
+    title: "Digital Store — Ready-to-Use Apps & Templates",
+    description:
+      "Buy ready-to-deploy web applications, desktop software, and templates. Save time with professionally built solutions and premium support.",
+    images: ["/og-image-store.svg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Digital Store — Ready-to-Use Apps & Templates",
+    description:
+      "Buy ready-to-deploy web applications, desktop software, and templates. Save time with professionally built solutions and premium support.",
+    images: ["/og-image-store.svg"],
+  },
+};
 
 export default function StoreMode() {
   return (
@@ -541,7 +561,7 @@ export default function StoreMode() {
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Send Message</h3>
               <form className="space-y-6">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Your Name</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">Name</label>
                   <input
                     type="text"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
