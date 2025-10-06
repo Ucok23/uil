@@ -66,8 +66,11 @@ export default function BlogMode() {
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-block bg-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            ✍️ Tech Insights & Tutorials
+          <div className="inline-block bg-yellow-500 text-black px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            ⚠️ Blog — Under development
+          </div>
+          <div className="mb-4 text-sm text-gray-700">
+            The blog is being built — subscribe to get notified when new articles are published.
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
             Building Better
@@ -80,7 +83,7 @@ export default function BlogMode() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#newsletter"
-              className="bg-purple-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors"
+              className="bg-yellow-500 text-yellow-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-600 transition-colors"
             >
               Subscribe for Updates
             </a>

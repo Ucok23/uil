@@ -67,8 +67,11 @@ export default function StoreMode() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-block bg-green-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              🛍️ Digital Store Open
+            <div className="inline-block bg-yellow-500 text-black px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              ⚠️ Store — Under development
+            </div>
+            <div className="mb-4 text-sm text-gray-700">
+              We're still building the store. Sign up for updates or contact us for early access.
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
               Ready-to-Use
@@ -81,15 +84,21 @@ export default function StoreMode() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#products"
-                className="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors"
+                className="bg-gray-300 text-gray-800 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-200 transition-colors"
               >
-                Browse Products
+                Browse Products (coming soon)
               </a>
               <a
                 href="#free-resources"
                 className="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-600 hover:text-white transition-colors"
               >
                 Free Resources
+              </a>
+              <a
+                href="#contact"
+                className="ml-4 inline-block border-2 border-yellow-500 text-yellow-700 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-yellow-500 hover:text-white transition-colors"
+              >
+                Subscribe for Updates
               </a>
             </div>
           </div>

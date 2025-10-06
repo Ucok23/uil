@@ -17,15 +17,15 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Ucok Isa Lubis — Software Developer",
+    default: "Ucok Isa Lubis  Software Developer",
     template: "%s | Ucok Isa Lubis",
   },
   description:
-    "I build websites and desktop applications for businesses — clear, practical solutions that help you reach customers and run operations efficiently.",
+    "I build websites and desktop applications for businesses  clear, practical solutions that help you reach customers and run operations efficiently.",
   openGraph: {
-    title: "Your Name — Software Developer",
+    title: "Your Name  Software Developer",
     description:
-      "I build websites and desktop applications for businesses — clear, practical solutions that help you reach customers and run operations efficiently.",
+      "I build websites and desktop applications for businesses  clear, practical solutions that help you reach customers and run operations efficiently.",
     url: siteUrl,
     siteName: "UIL",
     images: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         url: `${siteUrl}/og-image.svg`,
         width: 1200,
         height: 630,
-        alt: "Ucok Isa Lubis — Software Developer",
+        alt: "Ucok Isa Lubis  Software Developer",
       },
     ],
     locale: "en_US",
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Name — Software Developer",
+    title: "Your Name  Software Developer",
     description:
-      "I build websites and desktop applications for businesses — clear, practical solutions that help you reach customers and run operations efficiently.",
+      "I build websites and desktop applications for businesses  clear, practical solutions that help you reach customers and run operations efficiently.",
     images: [`${siteUrl}/og-image.svg`],
   },
   icons: {

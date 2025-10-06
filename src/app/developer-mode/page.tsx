@@ -83,7 +83,7 @@ export default function DeveloperMode() {
                 Let's Collaborate
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Ucok23"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-green-600 text-green-400 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-600 hover:text-white transition-colors"
@@ -179,7 +179,7 @@ export default function DeveloperMode() {
                   </div>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-300">PostgreSQL / MongoDB</span>
+                  <span className="text-gray-300">PostgreSQL / MySQL</span>
                   <div className="flex space-x-1">
                     {[...Array(4)].map((_, i) => (
                       <div key={i} className="w-2 h-2 bg-green-400 rounded-full"></div>
@@ -210,7 +210,7 @@ export default function DeveloperMode() {
               <h3 className="text-2xl font-bold mb-4">DevOps & Tools</h3>
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-300">Docker / Kubernetes</span>
+                  <span className="text-gray-300">Docker</span>
                   <div className="flex space-x-1">
                     {[...Array(3)].map((_, i) => (
                       <div key={i} className="w-2 h-2 bg-green-400 rounded-full"></div>
@@ -221,7 +221,7 @@ export default function DeveloperMode() {
                   </div>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-300">AWS / Vercel</span>
+                  <span className="text-gray-300">Firebase / GCP</span>
                   <div className="flex space-x-1">
                     {[...Array(4)].map((_, i) => (
                       <div key={i} className="w-2 h-2 bg-green-400 rounded-full"></div>
@@ -276,11 +276,11 @@ export default function DeveloperMode() {
                   </div>
                 </div>
                 <p className="text-gray-300 mb-4">
-                  Microservices architecture handling 10k+ daily transactions with real-time policy management.
+                  Microservices architecture handling 10k+ monthly transactions with real-time policy management.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-900 text-blue-300 px-2 py-1 rounded text-sm">Next.js</span>
-                  <span className="bg-green-900 text-green-300 px-2 py-1 rounded text-sm">Node.js</span>
+                  <span className="bg-blue-900 text-blue-300 px-2 py-1 rounded text-sm">React.js</span>
+                  <span className="bg-green-900 text-green-300 px-2 py-1 rounded text-sm">Express.js</span>
                   <span className="bg-purple-900 text-purple-300 px-2 py-1 rounded text-sm">PostgreSQL</span>
                   <span className="bg-yellow-900 text-yellow-300 px-2 py-1 rounded text-sm">Redis</span>
                 </div>
@@ -289,8 +289,8 @@ export default function DeveloperMode() {
                 <h4 className="font-semibold mb-2 text-sm text-gray-400">Key Features:</h4>
                 <ul className="text-sm text-gray-300 space-y-1">
                   <li>• JWT-based authentication with role management</li>
-                  <li>• Real-time WebSocket notifications</li>
-                  <li>• Automated policy renewal workflows</li>
+                  <li>• Real-time WebSocket chats and notifications</li>
+                  <li>• Integrated call center support</li>
                   <li>• RESTful API with comprehensive documentation</li>
                 </ul>
               </div>
@@ -307,22 +307,22 @@ export default function DeveloperMode() {
                   </div>
                 </div>
                 <p className="text-gray-300 mb-4">
-                  ML-powered chat routing system processing 1M+ messages with intelligent categorization.
+                  Project-Channel-Chat model for AI Chat applications.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-900 text-blue-300 px-2 py-1 rounded text-sm">React</span>
-                  <span className="bg-green-900 text-green-300 px-2 py-1 rounded text-sm">Python</span>
-                  <span className="bg-purple-900 text-purple-300 px-2 py-1 rounded text-sm">FastAPI</span>
-                  <span className="bg-red-900 text-red-300 px-2 py-1 rounded text-sm">OpenAI API</span>
+                  <span className="bg-blue-900 text-blue-300 px-2 py-1 rounded text-sm">Next.js</span>
+                  <span className="bg-green-900 text-green-300 px-2 py-1 rounded text-sm">Firebase</span>
+                  <span className="bg-purple-900 text-purple-300 px-2 py-1 rounded text-sm">Tailwind CSS</span>
+                  <span className="bg-red-900 text-red-300 px-2 py-1 rounded text-sm">Vertex AI API</span>
                 </div>
               </div>
               <div className="p-6 bg-gray-900">
                 <h4 className="font-semibold mb-2 text-sm text-gray-400">Key Features:</h4>
                 <ul className="text-sm text-gray-300 space-y-1">
-                  <li>• Natural language processing for intent detection</li>
-                  <li>• Real-time sentiment analysis</li>
+                  <li>• Organize chat conversations by project and channel</li>
+                  <li>• Prompt templates for common inquiries</li>
                   <li>• Automated response generation</li>
-                  <li>• Performance analytics dashboard</li>
+                  <li>• Usage analytics dashboard</li>
                 </ul>
               </div>
             </div>
@@ -338,22 +338,22 @@ export default function DeveloperMode() {
                   </div>
                 </div>
                 <p className="text-gray-300 mb-4">
-                  PWA with offline capabilities, geolocation services, and government API integrations.
+                  Web App with offline capabilities, geolocation services, and government API integrations.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-900 text-blue-300 px-2 py-1 rounded text-sm">Next.js</span>
-                  <span className="bg-green-900 text-green-300 px-2 py-1 rounded text-sm">Express</span>
-                  <span className="bg-purple-900 text-purple-300 px-2 py-1 rounded text-sm">MongoDB</span>
-                  <span className="bg-orange-900 text-orange-300 px-2 py-1 rounded text-sm">MapBox</span>
+                  <span className="bg-blue-900 text-blue-300 px-2 py-1 rounded text-sm">React.js</span>
+                  <span className="bg-green-900 text-green-300 px-2 py-1 rounded text-sm">Laravel</span>
+                  <span className="bg-purple-900 text-purple-300 px-2 py-1 rounded text-sm">MySQL</span>
+                  <span className="bg-orange-900 text-orange-300 px-2 py-1 rounded text-sm">Inertia.js</span>
                 </div>
               </div>
               <div className="p-6 bg-gray-900">
                 <h4 className="font-semibold mb-2 text-sm text-gray-400">Key Features:</h4>
                 <ul className="text-sm text-gray-300 space-y-1">
-                  <li>• Progressive Web App with offline functionality</li>
+                  <li>• Web App with offline functionality</li>
                   <li>• Geolocation-based incident reporting</li>
                   <li>• Image upload and compression</li>
-                  <li>• Status tracking and notifications</li>
+                  <li>• Export reports</li>
                 </ul>
               </div>
             </div>
@@ -374,7 +374,7 @@ export default function DeveloperMode() {
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="bg-blue-900 text-blue-300 px-2 py-1 rounded text-sm">Electron</span>
                   <span className="bg-green-900 text-green-300 px-2 py-1 rounded text-sm">React</span>
-                  <span className="bg-purple-900 text-purple-300 px-2 py-1 rounded text-sm">SQLite</span>
+                  <span className="bg-purple-900 text-purple-300 px-2 py-1 rounded text-sm">Firebase</span>
                   <span className="bg-yellow-900 text-yellow-300 px-2 py-1 rounded text-sm">Canvas API</span>
                 </div>
               </div>
@@ -411,7 +411,7 @@ export default function DeveloperMode() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Technical Partnerships</h3>
               <p className="text-gray-300 mb-4">
-                Looking for developers to collaborate on complex projects. Particularly interested in fintech, AI, and civic tech.
+                Looking for developers to collaborate on complex projects. Particularly interested in AI, and civic tech.
               </p>
               <ul className="space-y-2 text-gray-400 text-sm">
                 <li>• Full-stack development projects</li>
